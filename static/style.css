@@ -13,11 +13,11 @@
     background: #eee;
 }
 
-.light-red {
-    color: #FFCCCC;
+.dark-red {
+    color: #880000;
 }
 
-.dark-red {
+.red {
     color: #FF0000;
 }
 
@@ -25,12 +25,12 @@
     color: #808080;
 }
 
-.dark-green {
-    color: #008000;
+.green {
+    color: #00BB00;
 }
 
-.light-green {
-    color: #CCFFCC;
+.dark-green {
+    color: #006600;
 }
 
 #tickers-grid {

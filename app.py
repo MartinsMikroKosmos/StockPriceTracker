@@ -1,6 +1,6 @@
 from flask import request, render_template, jsonify, Flask
 import yfinance as yf
-import pretty_errors
+
 
 app = Flask(__name__, template_folder="templates")
 

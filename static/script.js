@@ -16,7 +16,7 @@ function startUpdateCycle() {
 
 $(document).ready(function () {
     tickers.forEach(function (ticker) {
-        addTickerToGrid();
+        addTickerToGrid(ticker);
 
     });
 
@@ -73,7 +73,7 @@ function updatePrices() {
                     colorClass = 'dark-green'
                 }
 
-                $(`#${ticker}-price`).text(`$${data.curentPrice.toFixed(2)}`);
+                $(`#${ticker}-price`).text(`$${data.currentPrice.toFixed(2)}`);
                 $(`#${ticker}-pct`).text(`$${changePercent.toFixed(2)}%`);
                 $(`#${ticker}-price`).removeClass('dark-red red gray green dark-green').addClass(colorClass);
                 $(`#${ticker}-pct`).removeClass('dark-red red gray green dark-green').addClass(colorClass);
